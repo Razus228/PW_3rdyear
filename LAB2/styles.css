@@ -10,6 +10,8 @@
     width: 80%;
     padding: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 3;
+    text-align: justify;
 }
 
 .containerthree {
@@ -22,4 +24,34 @@
     width: 80%;
     padding: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.initial {
+    font-size: x-large; 
+    font-weight: bold; 
+    font-style: italic;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.nextbutton {
+    background-color: rgb(189, 155, 114);
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-left: 20px;
 }
