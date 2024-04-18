@@ -47,3 +47,18 @@ ul {
 li {
     margin-left: 20px;
 }
+
+.show-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .show-mobile{
+        padding: 5%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 3;
+        text-align: justify;
+        display: inline-block;
+    }
+}
+
