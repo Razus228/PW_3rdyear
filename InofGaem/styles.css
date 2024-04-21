@@ -28,11 +28,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 15%;
+    animation-duration: 5s;
+    animation-name: walk;
+    animation-iteration-count: 1;
 }
 
-.mascot:hover{
-    animation: leon 3s ease-out;
+.mascot:hover {
+    animation: leon 3s ease-in-out;
 }
 
 @keyframes leon {
@@ -48,6 +51,19 @@
         transform: scale(1.2);
     }
 }
+
+@keyframes walk {
+    from {
+        margin-left: 100%;
+        width: 20%;
+    }
+
+    to {
+        margin-left: 40%;
+        width: 20%;
+    }
+}
+
 
 
 .nextbutton {
