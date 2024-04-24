@@ -1,30 +1,3 @@
-/*
-.containerone {
-    padding: 5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 3;
-    text-align: center;
-}
-
-.containertwo {
-    padding: 5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 3;
-    text-align: justify;
-}
-
-.contact {
-    padding: 5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.initial {
-    font-size: x-large; 
-    font-weight: bold; 
-    font-style: italic;
-    text-align: center;
-}
-
 .mascot {
     display: block;
     margin-left: auto;
@@ -33,11 +6,14 @@
     animation-duration: 5s;
     animation-name: walk;
     animation-iteration-count: 1;
+    
 }
 
 .mascot:hover {
     animation: leon 3s ease-in-out;
 }
+
+
 
 @keyframes leon {
     0% {
@@ -65,10 +41,6 @@
     }
 }
 
-
-
-
-*/
 .nextbutton {
     background-color: rgb(189, 155, 114);
     border-radius: 10px;
