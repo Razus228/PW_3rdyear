@@ -66,6 +66,18 @@
 }
 
 
+
+
+*/
+.nextbutton {
+    background-color: rgb(189, 155, 114);
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: whitesmoke;
+    align-content: center;
+}
+
 ul {
     list-style-type: square;
 }
@@ -86,13 +98,4 @@ li {
         text-align: justify;
         display: inline-block;
     }
-}
-*/
-.nextbutton {
-    background-color: rgb(189, 155, 114);
-    border-radius: 10px;
-    margin-right: 50px;
-    margin-top: 20px;
-    color: whitesmoke;
-    align-content: center;
 }
