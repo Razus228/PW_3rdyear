@@ -1,10 +1,11 @@
 const Navbar = () => {
     return ( 
-        <nav className="navbar">
-            <h1>The Dojo blog</h1>
-            <div className="links">
-                <a href="/">Back on top</a>
-                <a href="/create">New Movie</a>
+        <nav className="navbar ">
+            <h1>Nicomoonie</h1>
+            <div className="links ">
+                <a href="/">New</a>
+                <a href="/trending">Trending</a>
+                <a href="/Fvourites">Favourites</a>
             </div>
         </nav>
      );
