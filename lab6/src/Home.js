@@ -23,16 +23,14 @@ const Home = () => {
     return ( 
         
           <div className='best'> 
-          <h2>Best of all time</h2>    
+          <h2 style={{maxWidth: '170px'}}>Best of all time</h2>    
             {movies.map((movie) => (
               <div className='movie-title' key={movie.id}>
                 <img src={movie.image} style={{height: '500px'}}/>
                 <h2 className='title'>{movie.title}</h2>
                 <p className='director'>{movie.director}</p>
               </div>
-              //<div className='movie-director' key={movie.id}>
-                //<p className='director'>{movie.director}</p>
-              //</div>
+             
             ))}
           </div>           
   );      
