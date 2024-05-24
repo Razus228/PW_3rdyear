@@ -1,5 +1,5 @@
 import {useState} from 'react';
-
+import logo from "./assets/heart.svg";
 
 
 
@@ -29,11 +29,11 @@ const Home = () => {
                 <img 
                 src={movie.image1} 
                 style={{height: '500px'}}
-                //onMouseOver={'e.currentTarget.src={}'}
+                
                 />
                 
-                <h2 className='title'>{movie.title}</h2>
-                <p className='director'>{movie.director}</p>
+                <h2 className='title'>{movie.title} </h2>
+                <p className='director'>{movie.director} <img className='liked' src={logo}/></p>
               </div>
              
             ))}

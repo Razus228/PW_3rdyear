@@ -7,15 +7,25 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 function App() {
 
   return (
+    <>
     <BrowserRouter>
       <div className="App">
         <Navbar/>
+        
         <div className="content">
-          <Home />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            
+          </Routes>
+          <Routes>
+            <Route path="/trending" element={<Trending />} />
+          </Routes>
+
           <Trending />
         </div>
       </div>
     </BrowserRouter>
+    </>
   );
 }
 

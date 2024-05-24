@@ -4,24 +4,31 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  background-color: antiquewhite;
+
 }
+
+
 
 .navbar {
 
   align-items: center;
   padding: 2%;
   display: flex;
-  max-width: 80%;
+  width: 100%;
   margin: 0 ;
-  border-bottom: 5% solid #080808;
+  border: #0a0a0a;
+  text-decoration: none;
   font-size: large;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
 
 }
 
 .navbar h1 {
 
-  color: blanchedalmond;
+  color: #37b6c7;
   
 }
 
@@ -32,14 +39,19 @@
 }
 
 .navbar .links{
+  display: inline-flex;
+  justify-content: space-between;
   align-items: center;
   margin-left: 10%;
+  width: 40%;
 }
 
 .navbar a {
   text-decoration: none;
-  padding: 10%;
-  margin-left: 80%;
+}
+
+.navbar a:hover{
+  color: red;
 }
 
 .content {
@@ -55,6 +67,7 @@
   justify-content: space-between;
   margin-left: 5%;
   padding-bottom: 130px;
+  
 }
 
 /*.title {
@@ -67,4 +80,13 @@
 */
 .director {
   padding-top: 3%;
+}
+
+.liked {
+  padding-left: 48%;
+  max-height: 20px;
+}
+
+.liked:hover {
+  opacity: 80%;
 }
