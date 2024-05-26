@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Trending from './Trending';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Favourite from './Favourites';
 
 function App() {
 
@@ -20,7 +21,9 @@ function App() {
           <Routes>
             <Route path="/trending" element={<Trending />} />
           </Routes>
-
+          <Routes>
+            <Route path="/favourites" element={<Favourite/>}/>
+          </Routes>
         </div>
       </div>
     </BrowserRouter>

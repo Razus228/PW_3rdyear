@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="links ">
                 <a href="/">Search</a>
                 <a href="/trending">Trending</a>
-                <a href="/Fvourites">Favourites</a>
+                <a href="/favourites">Favourites</a>
             </div>
         </nav>
      );
