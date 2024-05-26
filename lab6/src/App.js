@@ -21,7 +21,6 @@ function App() {
             <Route path="/trending" element={<Trending />} />
           </Routes>
 
-          <Trending />
         </div>
       </div>
     </BrowserRouter>
