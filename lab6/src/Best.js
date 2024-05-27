@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import logo from "./assets/heart.svg";
 import MovieListBest from './MovieListBest';
 
 

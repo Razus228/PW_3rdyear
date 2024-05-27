@@ -4,10 +4,7 @@ import Home from './Home';
 import Trending from './Trending';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Favourite from './Favourites';
-import styled from 'styled-components';
-import { useState, useEffect } from 'react';
-import { Button } from 'reactstrap';
-
+import { useState } from 'react';
 
 
 
